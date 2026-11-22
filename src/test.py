@@ -13,6 +13,8 @@ from scipy.stats import randint
 
 import mlflow
 import mlflow.sklearn
+import flask
 
+print("flask_version:",flask.__version__)
 print("lgb_version:",lgb.__version__)
 print("mlflow_version:",mlflow.__version__)
